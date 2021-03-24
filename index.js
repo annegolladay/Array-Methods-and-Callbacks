@@ -86,7 +86,7 @@ function getWinnersByYear(data, getYearsCB, getWinnersCB) {
         return `In ${years[index]}, ${item} won the world cup!`;
     })
 }
-
+console.log('Task 5:', getWinnersByYear(fifaData, getYears, getWinners));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 6: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
